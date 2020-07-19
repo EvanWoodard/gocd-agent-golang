@@ -2,7 +2,7 @@ FROM gocd/gocd-agent-alpine-3.9:v20.5.0
 
 USER root
 
-RUN apk add --no-cache go
+RUN apk add --no-cache go musl-dev gcc build-base
 
 ENV GOROOT /usr/lib/go
 ENV GOPATH /home/go

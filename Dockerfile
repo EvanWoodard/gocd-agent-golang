@@ -1,4 +1,4 @@
-FROM gocd/gocd-agent-alpine-3.9
+FROM gocd/gocd-agent-alpine-3.9:v20.5.0
 
 RUN apk add --no-cache go
 

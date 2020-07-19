@@ -1,4 +1,4 @@
-FROM gocd/gocd-agent-alpine-3.9:v20.5.0
+FROM gocd/gocd-agent-centos-8:v20.5.0
 
 USER root
 
